@@ -1,6 +1,6 @@
-# Here is our basket of apples
-basket = ["apple1", "apple2", "apple3","77"]
-
-# Let's use a for loop to find each apple
-for apple in basket:
-    print("I found an apple!")
+name= input("Enter the name")
+length= len(name)
+#print(length)
+for i in range(length-1,-1,-1):
+    print(name[i],end=" ")
+    
