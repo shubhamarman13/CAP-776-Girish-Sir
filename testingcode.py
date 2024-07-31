@@ -1,3 +1,4 @@
-name="Shubham Arman";
-marks=95;y=10;
-print(name," is a good boy and he got",marks,y);
+print("""i can
+read it
+hole day
+            and i will be happy """)
