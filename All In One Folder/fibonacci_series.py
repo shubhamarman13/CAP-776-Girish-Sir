@@ -2,13 +2,27 @@
 genrally it is the sum of two previous numbers '''
 
 num = int (input("Enter the numebr upto which you want to print the fibonacci series "))
-first = 0
-second =1
-print(first,"", second ,"",end="")
-for i in range (1,num-1):
-    next_num=first+second
-    print(next_num)
+first=0
+second=1
+i=1
+while(i<=num):
+    print(first)
+    temp=first+second
     first=second
-    second=next_num
-    
+    second=temp
+    i=i+1
+
+
+"""this can be also done by
+i=1
+first=0
+second=1
+
+while(i<=num):
+    print(first)
+    second=first+second
+    first=second-first
+    i=i+1
+
+    """
     

@@ -7,3 +7,17 @@ for i in range(x):
     fact=fact+fact*i
     i=i+1
 print(fact)
+
+
+""" this can be also done by
+i=1
+first=0
+second=1
+
+while(i<=num):
+    print(first)
+    second=first+second
+    first=second-first
+    i=i+1
+
+    """
