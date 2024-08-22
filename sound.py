@@ -1,2 +1,0 @@
-file= pickAFile()
-print(file)
