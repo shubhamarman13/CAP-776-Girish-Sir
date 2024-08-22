@@ -2,7 +2,7 @@
 the split method and in the end appy some  functions like max mean median and so
 on """
 
-f = open("D:\\LPU\\SEM 3\\Python\\CAP-776-Girish-Sir\\file1.txt", 'r')
+f = open("file1.txt", 'r')
 List1=[]
 for lines in f:
     word=lines.split()
@@ -10,3 +10,4 @@ for lines in f:
         num=int(num)
         List1.append(num)
 print(max(List1))
+    

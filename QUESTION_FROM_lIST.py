@@ -1,6 +1,4 @@
 
-
-
 x=10
 y=10
 print(id(x))
@@ -16,6 +14,7 @@ for values in list1:
     list2.append(values)
 """
 print(list1 is list2)
+print(list1 == list2)
 print(id(list1))
 print(id(list2))
 
